@@ -8,6 +8,11 @@
 
 import SwiftUI
 
+let historyList = [
+    History(date: "2018/07/15", message: "Champion"),
+    History(date: "2018/07/11", message: "Game over"),
+    History(date: "2018/07/15", message: "It was a blowout"),
+]
 struct TournamentDetail : View {
     
     @State var tournamentName : String
@@ -15,6 +20,18 @@ struct TournamentDetail : View {
     var body : some View {
         VStack {
             Text(self.tournamentName)
+            VStack {
+                ScrollView {
+                    ForEach(historyList.identified(by: \.self)) { item in
+                        VStack {
+                            Text("date: \(item.date)")
+                            Text("message: \(item.message)")
+                        }
+                        .padding(5)
+                            .background(Color.gray)
+                    }
+                }
+            }
             Button(action: {
                 self.buttonClicked()
             }) {
@@ -22,7 +39,6 @@ struct TournamentDetail : View {
                 }
                 .padding(5)
                 .border(Color.blue, width: 1)
-            
         }
     }
     

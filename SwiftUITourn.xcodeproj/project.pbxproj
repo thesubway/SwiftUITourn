@@ -19,6 +19,7 @@
 		6D97C7E322CC1EB60004E9D1 /* TournamentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97C7DF22CC1EB60004E9D1 /* TournamentDetail.swift */; };
 		6D97C7E422CC1EB60004E9D1 /* TournView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97C7E022CC1EB60004E9D1 /* TournView.swift */; };
 		6D97C7E522CC1EB60004E9D1 /* Tourn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D97C7E122CC1EB60004E9D1 /* Tourn.swift */; };
+		6DD4BBBD22CC2EB40031C0BC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DD4BBBC22CC2EB40031C0BC /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		6D97C7DF22CC1EB60004E9D1 /* TournamentDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournamentDetail.swift; sourceTree = "<group>"; };
 		6D97C7E022CC1EB60004E9D1 /* TournView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TournView.swift; sourceTree = "<group>"; };
 		6D97C7E122CC1EB60004E9D1 /* Tourn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tourn.swift; sourceTree = "<group>"; };
+		6DD4BBBC22CC2EB40031C0BC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				6D97C7E122CC1EB60004E9D1 /* Tourn.swift */,
 				6D97C7DE22CC1EB60004E9D1 /* Data.swift */,
 				6D97C7DF22CC1EB60004E9D1 /* TournamentDetail.swift */,
+				6DD4BBBC22CC2EB40031C0BC /* History.swift */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 			files = (
 				6D97C7AE22CC1E810004E9D1 /* AppDelegate.swift in Sources */,
 				6D97C7E522CC1EB60004E9D1 /* Tourn.swift in Sources */,
+				6DD4BBBD22CC2EB40031C0BC /* History.swift in Sources */,
 				6D97C7B022CC1E810004E9D1 /* SceneDelegate.swift in Sources */,
 				6D97C7E322CC1EB60004E9D1 /* TournamentDetail.swift in Sources */,
 				6D97C7E422CC1EB60004E9D1 /* TournView.swift in Sources */,
